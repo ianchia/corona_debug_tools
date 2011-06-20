@@ -109,7 +109,7 @@
    // if the server is running, push the byte array out
    if(isRunning)
 	{  
-      NSString *broadcastString = [[commandTextfield stringValue] stringByAppendingString:@"\0"];
+      NSString *broadcastString = [[commandTextfield stringValue] stringByAppendingString:@"\r\n\0"];
       NSData *terminatedByteString = [broadcastString dataUsingEncoding:NSUTF8StringEncoding];
       
       int i;
@@ -204,7 +204,7 @@
 
 - (void)onSocket:(AsyncSocket *)sock didWriteDataWithTag:(long)tag
 {
-   NSLog(@"delegate onSocket:didWriteDataWithTag called.");
+   //NSLog(@"delegate onSocket:didWriteDataWithTag called.");
    // a message is terminated with a Zero byte
 	[sock readDataToData:[AsyncSocket ZeroData] withTimeout:-1 tag:0];
 }
