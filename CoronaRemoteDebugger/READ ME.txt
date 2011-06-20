@@ -1,0 +1,8 @@
+THIS MAY NOT BE THE LATEST VERSION OF THE CODE!
+
+This version is dated from April of 2009.
+
+You can always get the latest version of the code using subversion from the google code project page here:
+http://code.google.com/p/cocoaasyncsocket/source/checkout
+
+Also, this download is a subset of the entire project.  There is also a UDP socket version named AsyncUdpSocket, and there is further sample code available.
