@@ -1,0 +1,12 @@
+Hello there. This is a socket based remote debugger for Corona SDK apps.
+
+This is the rough first pass. More functionality is planned as needed.
+
+There's a OSX desktop app that functions as a socket server. It can send and receive msgs to connected clients.
+
+There's a Corona Lua client that receives message from the server, parse commands and dumps global variables (in a print_r PHP style with prettyprinting of tables) back to the desktop app. As well, the client can push messages to the debugger independently, and the desktop app can push commands to the client.
+
+This is particularly useful for Corona based apps that uses functionality not available in the simulator, such as native UI components, hardware features and also for testing over 3G.
+
+(For 3G, your local network's router needs to open up a port of your choice >1024 and port forward to the IP address that your desktop debugger is running on.)
+

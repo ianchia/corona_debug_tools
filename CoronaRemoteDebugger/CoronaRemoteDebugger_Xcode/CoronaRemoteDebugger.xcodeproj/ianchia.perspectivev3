@@ -344,7 +344,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>5D7D575513AF2AD2007BCC6F</string>
+										<string>5D7D575713B06B5A007BCC6F</string>
 										<key>history</key>
 										<array>
 											<string>5D03DF5D13AEC6E800C69246</string>
@@ -520,8 +520,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
@@ -660,7 +658,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>330246866.562971</real>
+	<real>330328922.65026098</real>
 	<key>ToolbarConfigUserDefaultsMinorVersion</key>
 	<string>2</string>
 	<key>ToolbarDisplayMode</key>
@@ -677,7 +675,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>5D7D575613AF2AD2007BCC6F</string>
 		<string>5D7D572A13AF1D37007BCC6F</string>
 		<string>5D7D572B13AF1D37007BCC6F</string>
 		<string>/Users/ianchia/__projects_local/iliveoverhere/Corona/corona_debug_tools/CoronaRemoteDebugger/CoronaRemoteDebugger_Xcode/CoronaRemoteDebugger.xcodeproj</string>
